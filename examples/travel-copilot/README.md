@@ -68,7 +68,8 @@ Ensure your website includes these CSS classes and IDs:
 
 ## Set-Up Parameters:
 
-![Screenshot From 2025-07-31 17-09-03.png](Travel%20Co-Pilot%20241eee2ccef2800f9d48ee4495ddd749/Screenshot_From_2025-07-31_17-09-03.png)
+<img width="1419" height="949" alt="Parameters" src="https://github.com/user-attachments/assets/da794b56-d63d-43b4-9ad3-526307a99f20" />
+
 
 ## ❇️AI Actions Reference
 
@@ -83,6 +84,7 @@ Ensure your website includes these CSS classes and IDs:
 - "Find hotels in Paris for March 15-17"
 - "Search accommodation in New York for 2 adults"
 - "Look for hotels near Times Square, 1 room, 3 nights"
+<img width="1920" height="1080" alt="Search Hotel" src="https://github.com/user-attachments/assets/828f4c90-c8aa-40bb-85db-3040f6a7b2ed" />
 
 **Parameters**:
 
@@ -144,7 +146,6 @@ $yourgptChatbot.on("ai:action:search_hotels", function (data, action) {
 });
 ```
 
-![Screenshot From 2025-07-31 16-16-01.png](Travel%20Co-Pilot%20241eee2ccef2800f9d48ee4495ddd749/Screenshot_From_2025-07-31_16-16-01.png)
 
 ## 2. View Hotel Details Action
 
@@ -157,6 +158,7 @@ $yourgptChatbot.on("ai:action:search_hotels", function (data, action) {
 - "Show me details for hotel ID 12345"
 - "View more info about the Marriott"
 - "Tell me about the first hotel"
+  <img width="1920" height="1080" alt="View Hotel" src="https://github.com/user-attachments/assets/2fa46b14-f8b6-4b50-92d2-41c9acc78259" />
 
 **Parameters**:
 
@@ -190,8 +192,6 @@ $yourgptChatbot.on("ai:action:view_hotel", function (data, action) {
 });
 ```
 
-![Screenshot From 2025-07-31 16-17-53.png](Travel%20Co-Pilot%20241eee2ccef2800f9d48ee4495ddd749/Screenshot_From_2025-07-31_16-17-53.png)
-
 ## 3. Select Room Action
 
 **Action ID**: `ai:action:select_room`
@@ -203,6 +203,8 @@ $yourgptChatbot.on("ai:action:view_hotel", function (data, action) {
 - "Select room number 2"
 - "Choose the deluxe suite"
 - "I want the second room option"
+  <img width="1920" height="1080" alt="Select Room" src="https://github.com/user-attachments/assets/ba4081a5-6421-4a2e-9df4-6d92f27c5a22" />
+
 
 **Parameters**:
 
@@ -235,7 +237,6 @@ $yourgptChatbot.on("ai:action:select_room", function (data, action) {
 });
 ```
 
-![Screenshot From 2025-07-31 16-16-34.png](Travel%20Co-Pilot%20241eee2ccef2800f9d48ee4495ddd749/Screenshot_From_2025-07-31_16-16-34.png)
 
 ## 4. Complete Booking Action
 
@@ -248,6 +249,7 @@ $yourgptChatbot.on("ai:action:select_room", function (data, action) {
 - "Book the room for John Doe, email [john@email.com](mailto:john@email.com)"
 - "Complete booking with my card ending in 1234"
 - "Finalize reservation for 2 guests"
+<img width="1920" height="1080" alt="Payment Page" src="https://github.com/user-attachments/assets/de0cd7b6-7f4f-4ed8-8a6d-a8758c0a8383" />
 
 **Parameters**:
 
@@ -310,9 +312,10 @@ $yourgptChatbot.on("ai:action:complete_booking", function (data, action) {
 });
 ```
 
-![Screenshot From 2025-07-31 16-16-48.png](Travel%20Co-Pilot%20241eee2ccef2800f9d48ee4495ddd749/Screenshot_From_2025-07-31_16-16-48.png)
+
 
 ## ▶️Conversation Flow Examples
+<img width="1920" height="1080" alt="Booked" src="https://github.com/user-attachments/assets/b25066ae-3544-4d83-bd78-e26c54904270" />
 
 ## Complete Booking Journey
 
@@ -340,7 +343,6 @@ $yourgptChatbot.on("ai:action:complete_booking", function (data, action) {
 
 → **Response**: "Booking completed successfully"
 
-![Screenshot From 2025-07-31 16-20-55.png](Travel%20Co-Pilot%20241eee2ccef2800f9d48ee4495ddd749/Screenshot_From_2025-07-31_16-20-55.png)
 
 ## Customization
 
