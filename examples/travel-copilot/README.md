@@ -568,3 +568,20 @@ function autofillCheckoutFormAndSubmit(data) {
     }
 }
 ```
+
+
+## 📄 License
+MIT License - see LICENSE file for details.
+
+## 🆘 Support
+- 📧 Email: support@yourgpt.ai
+- 📖 Documentation: [Project Documentation](https://docs.yourgpt.ai)
+- 💬 Discord: [Join our community](https://discord.com/invite/z8PBs5ckcd)
+
+## 🔗 Links
+- Website: [YourGPT](https://yourgpt.ai/)
+- Documentation: [Project Documentation](https://docs.yourgpt.ai)
+
+---
+
+Made with ❤️ by YourGPT Team
